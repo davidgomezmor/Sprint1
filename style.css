@@ -1,0 +1,210 @@
+.big-container-1{
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	padding: 10px;
+	background-color: rgb(1, 1, 1);
+}
+
+.flex-container-1 {
+	display: flex;
+	max-width: 1200px;
+	background-color: rgb(1, 1, 1);
+	flex: 1 2 10px;
+	align-items: flex;
+	padding: 10px;	
+}
+
+.box-1 {
+	flex: 1 2 10px;
+	background-color: rgb(239, 6, 65);
+	border-width: 15px;
+	border-style: solid;
+	border-color: rgb(55, 53, 66);
+	padding: 10px;
+}
+
+.box-2 {
+	flex: 5 2 10px;
+	background-color: rgb(239, 6, 65);
+	border-width: 15px;
+	border-style: solid;
+	border-color: rgb(55, 53, 66);
+	padding: 10px;
+}
+
+.box-3 {
+	flex: 1 2 10px;
+	background-color: rgb(239, 6, 65);
+	border-width: 15px;
+	border-style: solid;
+	border-color: rgb(55, 53, 66);
+	padding: 10px;
+}
+.flex-container-2 {
+	display: flex;
+	max-width: 1200px;
+	background-color: rgb(1, 1, 1);
+	flex: 1 2 10px;
+	align-items: flex;
+	padding: 0px 10px 0px 10px;
+	
+}
+.box-4 {
+	flex: 1 2 10px;
+	max-width: 1200px;
+	background-color: rgba(242, 202, 0, 0.947);
+	border-width: 15px;
+	border-style: solid;
+	border-color: rgb(215, 114, 13);
+	padding: 10px;
+	margin-bottom: 10px;
+	
+}
+.big-container-2 {
+	display: flex;
+	flex-direction: row;
+	max-width: 1200px;
+	padding: 10px;
+	background-color: rgb(1, 1, 1);
+}
+.flex-container-3 {
+	display: flex;
+	max-width: 1200px;
+	background-color: rgb(1, 1, 1);
+	flex-direction: row;
+	flex: 1 2 10px;
+}
+
+.blue-menu {
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(68, 33, 145);
+	padding: 10px;
+	flex: 3 2 10px;
+	flex-direction: column;
+	padding: 10px;
+	margin: 10px;
+}
+
+.left-lines {
+display: flex;
+}
+.right-lines {
+	display: flex;
+	}
+.short-line{
+	background-color: rgb(75, 75, 194);
+	flex-direction: row;
+	border-color: rgb(48, 48, 145);
+	margin: 10px;
+	flex: 3 2 10px;
+	padding: 10px;
+}
+
+
+.long-line {
+	background-color: rgb(145, 145, 188);
+	flex-direction: column;
+	border-color: rgb(48, 48, 145);
+	margin: 10px;
+	padding: 10px;
+}
+
+.flex-container-4 {
+	display: flex;
+	flex: 1 2 10px;
+	max-width: 1200px;
+	background-color: rgb(1, 1, 1);
+	flex-direction: row;
+	
+}
+.red-menu {
+	background-color: rgba(244, 85, 92, 0.897);
+	padding: 10px;
+	flex: 1 2 10px;
+	margin: 10px;
+}
+
+.yellow-line {
+	background-color: rgb(242, 206, 124);
+	margin: 10px;
+	padding: 10px;
+}
+.flex-container-5 {
+	display: flex;
+	max-width: 1200px;
+	background-color: rgb(1, 1, 1);
+	padding: 10px;
+	flex-direction: row;
+}
+	
+.footer {
+	background-color: rgb(203, 196, 0);
+	padding: 10px;
+	flex: 1 2 10px;
+	margin: 10px;
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+
+	.big-container-2
+	{
+        background-color: #FEFF03;
+		flex-direction: column;
+	}
+	.flex-container-3 {
+        background-color: #FEFF03;
+    }
+	.flex-container-4 {
+        background-color: #FEFF03;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.flex-container-1 {
+		display: flex;
+		flex-direction: column;	
+		padding: 10px;
+	}
+	.box-4 {
+		padding: 15px;
+		}
+
+	.big-container-2
+	{
+        background-color: #FEFF03;
+		flex-direction: column;
+	}
+	.flex-container-3 {
+        background-color: #FEFF03;
+    }
+	.flex-container-4 {
+        background-color: #FEFF03;
+    }
+	.yellow-line {
+		padding: 15px;
+	}
+	
+	.left-lines {
+		display:flex;
+		flex-direction: column;
+		}
+		.right-lines {
+		display:flex;
+		flex-direction: column;
+			}	
+			.long-line {
+				flex-direction: column;
+				margin: 10px;
+				padding: 10px;
+				flex: 1 2 10px;
+			}
+
+			.footer {
+				padding: 15px;
+			}
+		}
