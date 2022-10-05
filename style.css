@@ -138,11 +138,9 @@ display: flex;
 	padding: 10px;
 	flex-direction: row;
 }
-	
 .footer {
 	background-color: rgb(203, 196, 0);
 	padding: 10px;
 	flex: 1 2 10px;
 	margin: 10px;
 }
-
