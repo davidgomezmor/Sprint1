@@ -1,0 +1,187 @@
+/* Nivell 1 - Exercici 1 => Versió desktop (i tablet landscape -- major de 768px --): */        
+html { 
+    box-sizing: border-box;
+    font-size: 17px;
+}
+    
+*, *:before, *:after { 
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;    
+}
+
+/* Colors */
+
+.negre, .negre-groc {
+    background-color: black;
+}
+
+.blau-fosc {
+    background-color: #2D4059;
+}
+
+.tomato {
+    background-color: #EA5455;
+}
+
+.taronja {
+    background-color: #F07B3F;
+}
+
+.groc {
+    background-color: #FED460;
+}
+
+.violeta {
+    background-color: #4E4E6A;
+}
+
+.blau {
+    background-color: #1F6CB0;
+}
+
+.blau-clar {
+    background-color: #70A3C4;
+}
+
+.magenta {
+    background-color: #F73F52;
+}
+
+.groc-clar {
+    background-color: #FEEA85;
+}
+
+.mostassa-ft {
+    background-color: #E6AF2E;
+} 
+
+.contenidor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+}
+
+header, .menu, .banner, main, section, aside, footer {
+    padding: 20px;
+}
+
+.menu {
+    display: flex;   
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.logo, .xxss, aside {
+    flex-grow: 1;
+}
+
+nav {
+    flex-grow: 4;
+}
+
+section {
+    flex-grow: 2;
+    margin-right: 20px;
+}
+
+.articles-row {
+    display: flex;
+    gap: 20px;
+}
+
+article {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.menu {
+    column-gap: 20px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+}
+
+aside :first-child {   
+    margin-bottom: 10px;
+}
+
+/* *** ADAPTACIÓ ALTRES PANTALLES --- MEDIA QUERIES *** */
+
+/* Nivell 1 - Exercici 2 => Versió tablet (portrait): */
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+
+    .negre-groc {
+        background-color: #FEFF03;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Nivell 1 - Exercici 3 => Versió mobile: */
+@media only screen and (max-width: 600px) {
+    .violeta {
+        background-color: #09506F;
+    }
+
+    .negre-groc {
+        background-color: #FEE228
+    }
+    
+    .blau {
+        background-color: #62959C;
+    }
+    
+    .blau-clar {
+        background-color: #A3DDCB;
+    }
+    
+    .magenta {
+        background-color: #FD7B54;
+    }
+    
+    .groc-clar {
+        background-color: #FDB36B;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+   
+    .articles-row {
+        gap: 0;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articles-row {
+        flex-direction: column;
+    }
+
+}

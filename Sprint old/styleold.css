@@ -1,0 +1,79 @@
+.flex-container {
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 1200px;
+	background-color: rgb(1, 1, 1);
+	padding: 10px; 
+	flex-flow: row wrap;
+	align-content:stretch
+	
+}
+
+#box-1{
+	flex: 1 2 100px;
+	background-color: rgb(239, 6, 65);
+	border-width: 10px;
+	border-style: solid;
+	border-color: rgb(55, 53, 66);
+	align-self:flex-start;
+}
+
+#box-2{
+	flex: 5 2 100px;
+	background-color: rgb(239, 6, 65);
+	border-width: 10px;
+	border-style: solid;
+	border-color: rgb(55, 53, 66);
+	align-self:flex-start;
+}
+
+#box-3{
+	flex: 1 2 100px;
+	background-color: rgb(239, 6, 65);
+	border-width: 10px;
+	border-style: solid;
+	border-color: rgb(55, 53, 66);
+	align-self:flex-start;
+}
+
+#box-4{
+	flex: 1 2 100px;
+	max-width: 1200px;
+	flex-wrap: wrap;
+	background-color: rgba(242, 202, 0, 0.947);
+	border-width: 10px;
+	border-style: solid;
+	border-color: rgb(215, 114, 13);
+	flex-direction:column;
+}
+
+.blue-background {
+background-color: rgb(63, 63, 148);
+flex: 1 2 100px;
+border-width: 10px;
+	border-style: solid;
+	border-color: rgb(55, 53, 66);
+	align-self:flex-start;
+}
+
+.flex-container-2 {
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 1200px;
+	width: 100px;
+	background-color: rgb(1, 1, 1);
+	padding: 10px; 
+	flex-flow: row wrap;
+	align-content:stretch
+	
+}
+
+.blue-background {
+	background-color: rgb(64, 64, 227);
+	flex: 0 2 100px;
+	border-width: 10px;
+	padding: 10px;
+		border-style: solid;
+		border-color: rgb(55, 53, 66);
+		align-self:flex-start;
+	}
