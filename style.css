@@ -144,3 +144,18 @@ display: flex;
 	flex: 1 2 10px;
 	margin: 10px;
 }
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+
+	.big-container-2
+	{
+        background-color: #FEFF03;
+		flex-direction: column;
+	}
+	.flex-container-3 {
+        background-color: #FEFF03;
+    }
+	.flex-container-4 {
+        background-color: #FEFF03;
+    }
+
+}
